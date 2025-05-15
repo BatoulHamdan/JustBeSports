@@ -1,0 +1,39 @@
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.deps.json
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.pdb
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.AssemblyInfoInputs.cache
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.AssemblyInfo.cs
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.csproj.CoreCompileInputs.cache
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\obj\Debug\net8.0\refint\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.pdb
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeWebsite\JustBeWebsite.Core\obj\Debug\net8.0\ref\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.deps.json
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.runtimeconfig.json
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.pdb
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.csproj.AssemblyReference.cache
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.AssemblyInfoInputs.cache
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.AssemblyInfo.cs
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.csproj.CoreCompileInputs.cache
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\refint\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.pdb
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.genruntimeconfig.cache
+C:\Users\Batoul\Desktop\Web Development - .net\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\ref\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.csproj.AssemblyReference.cache
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.AssemblyInfoInputs.cache
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.AssemblyInfo.cs
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.csproj.CoreCompileInputs.cache
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\refint\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.pdb
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.deps.json
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.runtimeconfig.json
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.dll
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\bin\Debug\net8.0\JustBeSports.Core.pdb
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\JustBeSports.Core.genruntimeconfig.cache
+C:\Users\Batoul\Desktop\JustBeSports\JustBeWebsite.Core\obj\Debug\net8.0\ref\JustBeSports.Core.dll

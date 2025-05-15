@@ -1,0 +1,49 @@
+﻿@model JustBeSports.Core.Models.OrderConfirmationModel
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<div class="container">
+    <h2 class="my-4">Order Confirmation</h2>
+
+    <div class="alert alert-success">
+        <h4>@Model.Message</h4>
+        <p>Order ID: @Model.OrderId</p>
+    </div>
+
+    <h4>Order Details</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Size</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CartItems)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.ProductVariant.Size</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Product.Price.ToString("C")</td>
+                    <td>@(item.Quantity * item.Product.Price)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h5 class="my-4">Shipping Information</h5>
+    <p><strong>Full Name:</strong> @Model.FullName</p>
+    <p><strong>Phone:</strong> @Model.PhoneNumber</p>
+    <p><strong>Address:</strong> @Model.FullAddress</p>
+
+    <h5 class="my-4">Order Summary</h5>
+    <p><strong>Total Price:</strong> @Model.TotalPrice.ToString("C")</p>
+
+    <a href="/" class="btn btn-dark">Go Back to Home</a>
+</div>

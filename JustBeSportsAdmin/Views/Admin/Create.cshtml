@@ -1,0 +1,39 @@
+﻿@model JustBeSports.Core.Models.AdminModel
+
+@{
+    ViewData["Title"] = "Add Admin";
+}
+
+<h2 class="text-center">Add Admin</h2>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form method="post" asp-action="Create" id="createForm" data-parsley-validate>
+                @Html.AntiForgeryToken()
+                <div class="form-group mb-3">
+                    <label asp-for="Username" class="form-label"></label>
+                    <input asp-for="Username" class="form-control" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label">Password</label>
+                    <input name="Password" type="password" class="form-control" required />
+                </div>
+                <div class="form-group mb-4">
+                    <label asp-for="Role" class="form-label"></label>
+                    <input asp-for="Role" class="form-control" required />
+                </div>
+                @if (ViewBag.Error != null)
+                {
+                    <div class="alert alert-danger text-center">
+                        @ViewBag.Error
+                    </div>
+                }
+                <div class="text-center">
+                    <button type="submit" class="btn btn-dark">Add</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

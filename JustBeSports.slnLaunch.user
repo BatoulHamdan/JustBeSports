@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "JustBeWebsite\\JustBeSports.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "JustBeSportsAdmin\\JustBeSportsAdmin.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

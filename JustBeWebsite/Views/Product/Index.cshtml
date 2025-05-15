@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="container my-4">
+    <!-- Search Product and Category Filter -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="form-row">
+            <input type="text" id="searchBar" class="form-control col-6 mb-3" placeholder="Search by Product Name">
+            <select id="cmbCategoryFilter" class="form-control col-6" required>
+                <option value="">Select a Category</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Product Grid  -->
+    <div class="row" id="productsGrid"></div>
+</div>
+
+<!-- Modal for Adding CartItem -->
+<div class="modal fade" id="cartItemModal" tabindex="-1" aria-labelledby="cartItemModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content shadow rounded-4">
+            <div class="modal-header bg-dark text-white rounded-top-4">
+                <h5 class="modal-title" id="cartItemModalLabel">Add Product to Cart</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-4 py-3">
+                <form id="cartItemForm">
+                    @Html.AntiForgeryToken()
+                    <div class="mb-3">
+                        <label for="txtProductName" class="form-label">Product Name</label>
+                        <input type="text" class="form-control" id="txtProductName" readonly />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="cmbVarientList" class="form-label">Size</label>
+                        <select class="form-select" id="cmbVarientList" required style="max-height: 200px; overflow-y: auto;"></select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="txtQuantity" class="form-label">Quantity</label>
+                        <div class="input-group" style="max-width: 180px;">
+                            <input type="number" class="form-control text-center" id="txtQuantity" value="1" min="1" required />
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer bg-light rounded-bottom-4">
+                <button type="button" id="addToCartButton" class="btn btn-dark w-100">🛒 Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/productManagement.js"></script>
+}
