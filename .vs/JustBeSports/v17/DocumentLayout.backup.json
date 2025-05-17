@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Batoul\\Desktop\\JustBeSports\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7D0E19-BDF7-4AD4-95B2-6E2F66A1A82B}|JustBeWebsite\\JustBeSports.csproj|c:\\users\\batoul\\desktop\\justbesports\\justbewebsite\\views\\cartitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB7D0E19-BDF7-4AD4-95B2-6E2F66A1A82B}|JustBeWebsite\\JustBeSports.csproj|solutionrelative:justbewebsite\\views\\cartitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Batoul\\Desktop\\JustBeSports\\JustBeWebsite\\Views\\CartItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "JustBeWebsite\\Views\\CartItem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Batoul\\Desktop\\JustBeSports\\JustBeWebsite\\Views\\CartItem\\Index.cshtml",
+              "RelativeToolTip": "JustBeWebsite\\Views\\CartItem\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T15:45:35.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -59,7 +59,14 @@
                     </div>
                     <div class="mb-3">
                         <label for="phoneNumber" class="form-label">Phone Number *</label>
-                        <input type="text" class="form-control" id="phoneNumber" required data-parsley-required-message="Phone number is required." data-parsley-pattern="^\d{7,8}$" data-parsley-pattern-message="Enter a valid phone number.">
+                        <input type="text"
+                               class="form-control"
+                               id="phoneNumber"
+                               name="phoneNumber"
+                               required
+                               data-parsley-required-message="Phone number is required."
+                               data-parsley-pattern="^\d{8}$"
+                               data-parsley-pattern-message="Phone number is invalid.">
                     </div>
                     <div class="mb-3">
                         <label for="fullAddress" class="form-label">Full Address *</label>
