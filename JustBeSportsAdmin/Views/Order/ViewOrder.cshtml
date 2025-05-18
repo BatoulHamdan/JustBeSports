@@ -1,0 +1,50 @@
+﻿@model JustBeSports.Core.Models.OrderModel
+
+@{
+    ViewBag.Title = "Order Details";
+}
+
+<div class="container mt-4">
+    <h2>Order Details</h2>
+
+    <table class="table table-bordered">
+        <tr><th>Full Name</th><td>@Model.FirstName @Model.LastName</td></tr>
+        <tr><th>Phone Number</th><td>@Model.PhoneNumber</td></tr>
+        <tr><th>Instagram</th><td>@(Model.InstagramAccount ?? "N/A")</td></tr>
+        <tr><th>Governate</th><td>@Model.Governate</td></tr>
+        <tr><th>Address</th><td>@Model.FullAddress</td></tr>
+        <tr><th>Order Date</th><td>@Model.OrderDate.ToString("dd/MM/yyyy")</td></tr>
+        <tr><th>Status</th><td>@Model.Status</td></tr>
+        <tr><th>Total Price</th><td>$@Model.TotalPrice.ToString("F2")</td></tr>
+    </table>
+
+    <h3>Cart Items</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Product Name</th>
+                <th>Product Size</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CartItems)
+            {
+                <tr>
+                    <td>
+                        <img src="@Url.Content("~/assets/" + (item.Product.ProductImages?.FirstOrDefault()?.Url ?? "no-image.png"))"
+                             alt="@item.Product.Name"
+                             width="50"
+                             height="50" />
+                    </td>
+                    <td>@item.Product.Name</td>
+                    <td>@item.ProductVariant.Size</td>
+                    <td>@item.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="/Home/Index" class="btn btn-dark">Back to Orders</a>
+</div>

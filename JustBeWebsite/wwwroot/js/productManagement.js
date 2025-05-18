@@ -132,7 +132,7 @@ $(document).ready(function () {
                     <span class="visually-hidden">Next</span>
                 </button>
               </div>`
-                : `<div class="card-img-top bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
+                : `<div class="card-img-top bg-light d-flex align-items-center justify-content-center" style="height: 60%;">
                   <span class="text-muted">No Image</span>
               </div>`;
 

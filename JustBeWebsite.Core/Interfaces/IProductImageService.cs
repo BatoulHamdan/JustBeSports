@@ -10,7 +10,7 @@ namespace JustBeSports.Core.Interfaces
 
         ProductImageModel GetProductImage(int id);
 
-        ProductImageModel GetProductImageByUrl(string url);
+        List<ProductImageModel> GetProductImagesByUrl(string url);
 
         List<ProductImageModel> GetProductImageByProductId(int productId);
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JustBeSports")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16f1b0f38976bdfb5b6c2a2e22d3b921bdf5a307")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f75dc902d51bd3f53f0950291f762edf037f8d49")]
 [assembly: System.Reflection.AssemblyProductAttribute("JustBeSports")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JustBeSports")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

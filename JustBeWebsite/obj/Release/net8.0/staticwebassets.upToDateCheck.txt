@@ -1,9 +1,6 @@
-wwwroot\assets\adidasshoes.jpg
-wwwroot\assets\gazeeleadidas.jpeg
-wwwroot\assets\mug.jpg
-wwwroot\assets\nikeleggingsblack.jpg
-wwwroot\assets\sambaadidasblack.jpeg
-wwwroot\assets\whiteadidasrunning.jpeg
+wwwroot\assets\black-set1.jpg
+wwwroot\assets\black-set2.jpg
+wwwroot\assets\WhatsApp Image 2025-05-18 at 01.59.00_aab5f7ca.jpg
 wwwroot\css\fontawesome-free-6.7.2-web\css\all.css
 wwwroot\css\fontawesome-free-6.7.2-web\css\all.min.css
 wwwroot\css\fontawesome-free-6.7.2-web\css\brands.css

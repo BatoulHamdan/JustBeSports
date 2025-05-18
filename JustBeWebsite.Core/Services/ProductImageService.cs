@@ -35,9 +35,11 @@ namespace JustBeSports.Core.Services
             return _productImageFeatures.GetById(id);
         }
 
-        public ProductImageModel GetProductImageByUrl(string url)
+        public List<ProductImageModel> GetProductImagesByUrl(string url)
         {
-            return _productImageFeatures.GetByUrl(url);
+            return _productImageFeatures.GetByUrl(url)
+                .Select(x => (ProductImageModel)x)
+                .ToList();
         }
 
         public List<ProductImageModel> GetProductImageByProductId(int productId)

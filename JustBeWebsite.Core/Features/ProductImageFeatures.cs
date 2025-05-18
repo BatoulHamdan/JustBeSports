@@ -27,10 +27,10 @@ namespace JustBeSports.Core.Features
                 .FirstOrDefault(x => x.Id == id);
         }
 
-        public ProductImage GetByUrl(string url)
+        public List<ProductImage> GetByUrl(string url)
         {
             return _context.ProductImages
-                .FirstOrDefault(x => x.Url == url);
+                .ToList();
         }
 
         public List<ProductImage> GetByProductId(int productId)
